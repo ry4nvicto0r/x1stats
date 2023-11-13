@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h6,h1 {
+  font-family: 'Roboto';
+}
+.modal {
+    width: 300px;
+}
+  .modal-content {
+    width: 300px;
+}
+  .list-group-item:hover {
+    background-color: rgba(59, 57, 57, 0.164) !important;
+}
+
+.img-x1stats{
+    width: 60px;
+}
+.card{
+  border-radius: 15px;
+  width: 300px;
+  background-color: #212529;
+}
+.container-financeiro{
+ margin-left: 220px;
+}
+.btn{
+  background-color: rgb(7, 207, 7);
+}
+.hamburguerButtons{
+  width: 210px;
+    height: 50px;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #00000025;
+    background-color:  rgba(43, 255, 0, 0.418);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px ;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.hamburguerButtons:hover{
+  background-color: rgb(12, 255, 12);
+    box-shadow: 0px 20px 30px rgb(0, 255, 0);
+    color: #00ff15;
+    transform: translateY(-7px);
+} 
